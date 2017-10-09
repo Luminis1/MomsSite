@@ -10,12 +10,10 @@
             </header>
 
             <div class="grid col-one-half mq2-col-full">
-                <h1>Good human <br>
-                    Good Teacher <br>
-                    Good Mother</h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit.
+                <h1>{{$projects[0]->hContent}}</h1>
+                <p>{{$projects[0]->pContent}}
                 </p>
-                <p>Vivamus pharetra posuere sapien. Nam consectetuer. Sed aliquam, nunc eget euismod ullamcorper, lectus nunc ullamcorper orci, fermentum bibendum enim nibh eget ipsum.
+                <p>{{$projects[0]->p2Content}}
                 </p>
             </div>
 

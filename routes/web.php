@@ -34,5 +34,10 @@ Route::resource('/blog', 'Blog\BlogController');
 Route::get('/contact', 'Contact\ContactController@index');
 Route::resource('/contact', 'Contact\ContactController');
 
+Route::get('/dashboard', 'Dashboard/DashboardController@index');
+Route::resource('/dashboard', 'Dashboard\DashboardController');
+
+
+Route::resource('/dashboard/create', 'Dashboard\DashCreate');
 
 
